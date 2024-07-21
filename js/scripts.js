@@ -134,3 +134,6 @@ function calculer(nb1, nb2, operation){
     if(operation === "*") return nb1 * nb2;
     if(operation === "/") return nb1 / nb2;
 }
+
+// Exportation de la fonction calculer
+module.exports = { calculer };
